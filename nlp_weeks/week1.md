@@ -1,3 +1,4 @@
+```python
 import numpy as np
 import tensorflow  as tf
 from __future__ import print_function,division
@@ -83,3 +84,4 @@ find_analogies('japan', 'japanese', 'chinese')
 find_analogies('japan', 'japanese', 'italian')
 find_analogies('japan', 'japanese', 'australian') 
 find_analogies('december', 'november', 'june')
+```
