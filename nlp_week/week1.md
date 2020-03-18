@@ -52,7 +52,7 @@ def find_analogies(w1,w2,w3):
   v0=king-man+woman
    
   #the first vector of v0 contains D*1 vector while the second list contains all the word vectors in our embedding matrix
-  #Therefore,we could estimate that v0=1*D  and our distance function to compute the distance v0 and v(i) in our embedding matrix for n times
+  #Therefore,we could estimate that v0=1*D  and our distance function to compute the distance v0 and v(i) in our embedding matrix for n times 
   #The results [[d1,d2,d3,......dn]]. If you print out the shape of the result,you will soon find that it has an unnecessarydimension
   #There are many ways we could do to remove this extra dimension. 
   distance=pairwise_distances(v0.reshape(1,D),embedding,metric=metric)
