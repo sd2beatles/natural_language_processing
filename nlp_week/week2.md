@@ -38,7 +38,7 @@ class GloveVectorizer:
                 word=value[0]
                 vec=np.array(value[1:],dtye=np.float32)
                 word2Vec[word]=vec
-                embedding.append(vec)
+                embedding.append(vec) 
                 idx2word.append(word)
         #save for later
         self.word2Vec=word2Vec
